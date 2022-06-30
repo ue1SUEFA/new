@@ -1,0 +1,62 @@
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+
+.header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+button {
+  width: 122px;
+  height: 44px;
+  background-color: #3a5f56;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  margin-left: 20px;
+}
+
+li {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  color: #3a5f56;
+  margin-right: 20px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+/*--------------- MAIN---------------- */
+
+main {
+  background-image: url("images/bg.png");
+  height: 973px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
